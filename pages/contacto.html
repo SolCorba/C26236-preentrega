@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/fonts/fonts.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/img/logo-libros.png" type="image/x-icon">
+    <title>Maysol Tienda Literaria | Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <a href="../index.html"><img src="../assets/img/logo-libros.png" alt=""></a>
+            <a class="logo" href="../index.html">MAYSOL</a>
+        </div>
+
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="inicio">
+            <h1 class="text-dark">¡Contáctanos!</h1>
+        </section>
+
+        <section class="contacto">
+            <form class="form-contacto bg-primary" action="" method="POST">
+                <div class="grupo-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="Juan">
+                </div>
+
+                <div class="grupo-form">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" placeholder="Perez">
+                </div>
+
+                <div class="grupo-form">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" placeholder="juanperez@gmail.com">
+                </div>
+                
+                <div class="grupo-form">
+                    <label for="asunto">Motivo de consulta:</label>
+                    <select id="asunto" name="asunto">
+                        <option value="consulta">Consulta general</option>
+                        <option value="pedido">Estado de mi pedido</option>
+                        <option value="sugerencia">Sugerencia</option>
+                    </select>
+                </div>
+
+                <div class="grupo-form">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" placeholder="Escribí tu mensaje acá..."></textarea>
+                </div>
+
+                <button class="btn bg-secondary" type="submit">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Copyright Maysol Tienda Literaria - 2026. Todos los derechos reservados</p>
+        <nav>
+            <ul class="footer-list">
+                <li><img src="../assets/img/instagram-logo.PNG" alt=""></li>
+                <li><img src="../assets/img/whatsapp-logo.PNG" alt=""></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+</html>
